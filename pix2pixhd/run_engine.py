@@ -32,7 +32,7 @@ G_LOGGER = trt.infer.ConsoleLogger(trt.infer.LogSeverity.INFO)
 
 class Profiler(trt.infer.Profiler):
     """
-    Example Implimentation of a Profiler
+    Example Implementation of a Profiler
     Is identical to the Profiler class in trt.infer so it is possible
     to just use that instead of implementing this if further
     functionality is not needed
